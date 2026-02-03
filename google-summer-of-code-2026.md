@@ -84,7 +84,9 @@ The goal of this project is to design and implement a new VerneMQ webhook events
 -----
 
 ### 3. MQTT over QUIC Support in Broker
+
 👥 **Mentor(s):** Anubhav Gupta, Dhruv Jain
+
 📢 **Communication Channel:** [Gojek Courier Discord Channel](https://discord.com/channels/986889666651373568/1468219617066356807)
 
 📝 **Repository:** https://github.com/gojek/vernemq
@@ -103,5 +105,148 @@ This project aims to add support for MQTT connections over the QUIC protocol as 
   - Document configuration, limitations, and best practices
 
 ⏳ **Project Duration:** 175 hours
+
+📈 **Difficulty:** Intermediate
+
+
+### 4. Courier Multiplatform: Kotlin Multi Platform compatible Courier Library
+
+👥 **Mentor(s):** Deepanshu, Anubhav Gupta
+
+📢 **Communication Channel:** [Gojek Courier Discord Channel](https://discord.com/channels/986889666651373568/1468219617066356807)
+
+📝 **Repository:** https://github.com/gojek/courier-android
+
+💬 **Description:**
+    This project aims to evolve Courier into a Kotlin Multiplatform (KMP) compatible library, allowing a single shared codebase to be used consistently across Android, iOS, and backend services. The work will involve refactoring core modules, introducing multiplatform abstractions, modularizing platform-specific logic, and ensuring backward compatibility with existing Android and JVM integrations.
+
+💪 **Desired Skills:** Kotlin, MQTT, Android
+
+🎯 **Goals/Deliverables:**
+  - Courier core refactored to support Kotlin Multiplatform
+  - Clear separation between common and platform-specific modules
+  - Stable and backward-compatible APIs for existing users
+  - Usable Courier integrations on Android, JVM/backend, and iOS
+  - Improved documentation and examples for multiplatform usage
+
+⏳ **Project Duration:** 175 hours
+
+📈 **Difficulty:** Intermediate
+
+### 5. Courier Proxy: Mqtt Event Visualising & Debugging application
+
+👥 **Mentor(s):** Deepanshu, Anubhav Gupta
+
+📢 **Communication Channel:** [Gojek Courier Discord Channel](https://discord.com/channels/986889666651373568/1468219617066356807)
+
+📝 **Repository:** https://github.com/gojek/courier-android
+
+💬 **Description:**
+    This project proposes building Courier Proxy, an intermediate MQTT proxy and visualization tool that sits between MQTT clients and brokers. The proxy will intercept, inspect, and optionally persist MQTT events, providing developers with real-time visibility into message flows. The tool will help visualize connections, subscriptions, publishes, acknowledgements, and errors, significantly improving debugging, performance analysis, and operational observability for Courier-based systems
+
+💪 **Desired Skills:** Kotlin/Swift, Android/iOS, MQTT
+
+🎯 **Goals/Deliverables:**
+  - A functional MQTT proxy capable of intercepting and forwarding traffic
+  - Real-time visualization of MQTT events and message flows
+  - Improved developer experience for debugging Courier and MQTT-based systems
+  - A reusable debugging and observability tool for local and staging environments
+
+⏳ **Project Duration:** 175 hours
+
+📈 **Difficulty:** Intermediate
+
+### 6. Connection Pooling support in Courier Library
+
+👥 **Mentor(s):** Deepanshu, Anubhav Gupta
+
+📢 **Communication Channel:** [Gojek Courier Discord Channel](https://discord.com/channels/986889666651373568/1468219617066356807)
+
+📝 **Repository:** https://github.com/gojek/courier-android
+
+💬 **Description:**
+    This project aims to introduce connection pooling support into the Courier library. The pooling mechanism will allow multiple logical Courier clients to efficiently share a managed set of underlying MQTT connections, improving performance, reducing connection churn, and optimizing system resource usage. The solution will be designed to be configurable, backward-compatible, and safe for concurrent usage.
+
+💪 **Desired Skills:** Kotlin, MQTT
+
+🎯 **Goals/Deliverables:**
+  - Design and implementation of a connection pooling abstraction in Courier
+  - A clean, extensible connection pooling API within Courier
+  - Thread-safe and concurrency-safe pool management
+  - Graceful connection lifecycle handling (creation, reuse, eviction, shutdown)
+
+⏳ **Project Duration:** 90 hours
+
+📈 **Difficulty:** Intermediate
+
+### 7. MQTTv5: Mqtt version 5 support in Courier Library
+
+👥 **Mentor(s):** Deepanshu, Anubhav Gupta
+
+📢 **Communication Channel:** [Gojek Courier Discord Channel](https://discord.com/channels/986889666651373568/1468219617066356807)
+
+📝 **Repository:** https://github.com/gojek/courier-android
+
+💬 **Description:**
+    This project aims to add first-class MQTTv5 support to the Courier library while preserving backward compatibility with existing MQTT versions. MQTTv5 introduces significant enhancements such as reason codes, user properties, session and flow control improvements, request–response patterns, and better error handling. Supporting MQTTv5 will allow Courier users to build more robust, observable, and feature-rich messaging systems.
+
+💪 **Desired Skills:** Kotlin, MQTT
+
+🎯 **Goals/Deliverables:**
+  - Full or substantial support for MQTT version 5 features in Courier
+  - Backward compatibility with existing MQTTv3.x integrations
+  - API extensions to expose MQTTv5 capabilities cleanly
+  - Unit and integration tests covering MQTTv5 scenarios
+
+⏳ **Project Duration:** 175 hours
+
+📈 **Difficulty:** Intermediate
+
+
+### 8. MQTT over QUIC in Courier Library
+
+👥 **Mentor(s):** Deepanshu, Anubhav Gupta
+
+📢 **Communication Channel:** [Gojek Courier Discord Channel](https://discord.com/channels/986889666651373568/1468219617066356807)
+
+📝 **Repository:** https://github.com/gojek/courier-android
+
+💬 **Description:**
+    Traditionally, MQTT runs over TCP/TLS, which can suffer from higher connection latency, head-of-line blocking, and suboptimal performance in mobile and unreliable network environments. This project proposes adding MQTT over QUIC support to the Courier library. QUIC is a modern transport protocol built on UDP that provides faster connection establishment, improved multiplexing, better congestion control, and seamless connection migration. By supporting MQTT over QUIC, Courier can offer lower latency, improved reliability on mobile networks, and better overall performance compared to traditional TCP-based transports.
+
+💪 **Desired Skills:** Kotlin, MQTT, QUIC
+
+🎯 **Goals/Deliverables:**
+  - Design and implementation of a QUIC-based transport layer for Courier
+  - Abstraction of the transport layer to support multiple protocols (TCP, QUIC)
+  - Integration of MQTT protocol handling over QUIC streams
+  - Configuration options for enabling and tuning QUIC transport
+  - Performance benchmarking and comparison with TCP/TLS
+
+⏳ **Project Duration:** 175 hours
+
+📈 **Difficulty:** Intermediate
+
+
+### 9. MQTT for Fleet Telematics
+
+👥 **Mentor(s):** Deepanshu, Anubhav Gupta
+
+📢 **Communication Channel:** [Gojek Courier Discord Channel](https://discord.com/channels/986889666651373568/1468219617066356807)
+
+📝 **Repository:** https://github.com/gojek/courier-android
+
+💬 **Description:**
+    This project aims to design and implement a robust MQTT-based communication framework for fleet telematics using the Courier library. The focus will be on reliable ingestion, transport, and processing of telemetry data such as GPS coordinates, vehicle health metrics, sensor readings, and event signals. The project will explore MQTT features such as Quality of Service (QoS), session persistence, offline buffering, and efficient topic design to meet the unique requirements of fleet-scale telematics systems.
+
+💪 **Desired Skills:** Android, Kotlin, MQTT
+
+🎯 **Goals/Deliverables:**
+  - Design of an MQTT-based telematics communication model
+  - Courier-based client implementation for vehicle or edge devices
+  - Improved handling of intermittent connectivity and mobile networks
+  - Reusable patterns and best practices for large-scale IoT and fleet systems
+
+⏳ **Project Duration:** 90 hours
 
 📈 **Difficulty:** Intermediate
