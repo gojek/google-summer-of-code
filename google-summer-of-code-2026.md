@@ -12,9 +12,7 @@ We encourage authentic, original work. While AI tools may be used for research o
 
 ### **Contacting Gojek Team**
 
-Interested contributors are encouraged to interact directly with our team and community  on our 24 x 7 community channel for Google Summer of Code 2026 : [https://discord.com/channels/google-summer-of-code-2026](https://discord.com/channels/986889666651373568/1468219617066356807)
-
-As well as on GitHub: [https://github.com/gojek/](https://github.com/gojek/)
+Interested contributors are encouraged to interact directly with our team and community  on our 24 x 7 [community channel for Google Summer of Code 2026](https://discord.com/channels/986889666651373568/1468219617066356807) as well as on GitHub: [https://github.com/gojek/](https://github.com/gojek/)
 
 ---
 
