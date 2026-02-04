@@ -2,15 +2,11 @@
 
 ## [![Google Summer of Code 2026](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com)
 
-## How to apply
-
-Gojek is proud to apply for Google Summer of Code 2026 for the first time as a mentoring open source organization, joining the global effort to nurture the next generation of open source contributors. See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).
-
 We welcome aspiring developers from around the world, https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html, who are passionate about coding and  eager to explore the world of open source to join us as GSoC 2026 contributors.
 
 For details and rules of Google Summer of Code 2026, please see the [GSoC 2026 Official Website](https://summerofcode.withgoogle.com/). 
 
-For timeline, see [Official Google Summer of Code 2026 Timeline](https://developers.google.com/open-source/gsoc/timeline) for more details.
+For timeline, refer the [Official Google Summer of Code 2026 Timeline](https://developers.google.com/open-source/gsoc/timeline).
 
 We encourage authentic, original work. While AI tools may be used for research or translation, proposals generated entirely by LLMs or AI agents will be rejected. You must write your proposal yourself and be able to justify every detail if invited for an interview. A demonstrable track record of GitHub contributions will also improve your chances of selection for GSoC 2026. See [Google's Contributors Guide on using AI tooling in GSoC 2026](https://docs.google.com/document/d/1t9GcIBnNXPNO6klRQvU8pL8-uV6afzLo6JUAM299suA/edit?tab=t.0#heading=h.tgbr0z4x9eg5) for some suggestions.
 

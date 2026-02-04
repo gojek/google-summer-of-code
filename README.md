@@ -1,4 +1,4 @@
-# ![Google Summer of Code](logos/gsoc-logo.png)
+## [![Google Summer of Code 2026](https://github.com/Sing-Li/bbug/raw/master/images/gsoclogo.jpg)](https://summerofcode.withgoogle.com)
 
 Gojek is proud to apply for Google Summer of Code 2026 for the first time as a mentoring open source organization, joining the global effort to nurture the next generation of open source contributors. See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).
 
